@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forge Fitness | Premium Gym Experience</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- 8. Special Offer Banner -->
+    <div id="offerBanner" class="offer-banner">
+        <div class="container">
+            <p>🔥 <strong>Limited Time Offer:</strong> Get 50% off your first month! Use code <span>FORGE50</span></p>
+            <div class="banner-actions">
+                <a href="#memberships" class="btn-small btn-outline">Claim Now</a>
+                <button id="closeBanner" class="close-banner">&times;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar transition" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">FORGE<span>.</span></a>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#programs" class="nav-link">Programs</a>
+                <a href="#memberships" class="nav-link">Pricing</a>
+                <a href="#trainers" class="nav-link">Trainers</a>
+                <a href="#schedule" class="nav-link">Schedule</a>
+                <a href="#contact" class="nav-link btn-primary">Join Now</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <h1>More Than A Gym.<br>We Are A <span>Crucible</span>.</h1>
+            <p>Elite training, premium facilities, and a relentless community built to forge champions.</p>
+            <div class="hero-btns">
+                <a href="#memberships" class="btn-primary">Join Now</a>
+                <a href="#programs" class="btn-secondary">Explore Programs</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Discover</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container reveal">
+            <div class="about-grid-main">
+                <div class="about-text">
+                    <div class="section-title left-align">
+                        <h2>The Forge <span>Legacy</span></h2>
+                    </div>
+                    <p class="mission-text">Our mission is to obliterate mediocrity. We provide the absolute best
+                        environment, equipment, and coaching to ensure you surpass your physical limits.</p>
+                    <ul class="highlights-list">
+                        <li><span class="check">✓</span> Premium 24/7 Access</li>
+                        <li><span class="check">✓</span> Olympic Calibration Equipment</li>
+                        <li><span class="check">✓</span> Elite Certified Coaches</li>
+                        <li><span class="check">✓</span> Recovery Facilities</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline mt-4">Take a Tour</a>
+                </div>
+                <div class="about-images">
+                    <div class="img-wrapper main-img"></div>
+                    <div class="img-wrapper sub-img glass">
+                        <div class="experience-badge">
+                            <span class="number">10+</span>
+                            <span class="text">Years<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Statistics Counter -->
+    <section id="counter-section" class="stats-section section-padding bg-darker">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="counter" data-target="500">0</h3>
+                    <p>Active Members</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="15">0</h3>
+                    <p>Elite Trainers</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="40">0</h3>
+                    <p>Classes Weekly</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="10">0</h3>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Fitness Programs -->
+    <section id="programs" class="programs section-padding">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Our <span>Programs</span></h2>
+                <p>Tailored systems designed for specific, measurable results.</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-img weightloss"></div>
+                    <div class="overlay-brand"></div>
+                    <div class="program-content glass">
+                        <h3>Weight Loss</h3>
+                        <p>High-intensity interval training combined with nutritional guidance to shed fat efficiently.
+                        </p>
+                        <span class="link-arrow">Read More &rarr;</span>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-img musclegain"></div>
+                    <div class="overlay-brand"></div>
+                    <div class="program-content glass">
+                        <h3>Muscle Gain</h3>
+                        <p>Progressive overload systems and hypertrophy-focused regimens for serious mass.</p>
+                        <span class="link-arrow">Read More &rarr;</span>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-img pt"></div>
+                    <div class="overlay-brand"></div>
+                    <div class="program-content glass">
+                        <h3>Personal Training</h3>
+                        <p>1-on-1 elite coaching. Custom blueprints tailored completely to your biomechanics.</p>
+                        <span class="link-arrow">Read More &rarr;</span>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <div class="program-img cardio"></div>
+                    <div class="overlay-brand"></div>
+                    <div class="program-content glass">
+                        <h3>Cardio Training</h3>
+                        <p>Endurance-building circuits utilizing top-tier rowing and cycling machines.</p>
+                        <span class="link-arrow">Read More &rarr;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Motivation Section -->
+    <section id="transformation" class="transformation section-padding bg-darker">
+        <div class="container reveal">
+            <div class="ronaldo-motivation-panel">
+                <img src="assets/bbn.jpg" alt="Ronaldo Champion Mindset" class="ronaldo-img"
+                    onerror="this.src='https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=2070&auto=format&fit=crop'" />
+                <div class="ronaldo-overlay"></div>
+                <div class="ronaldo-quote-wrap">
+                    <div class="ronaldo-accent-line"></div>
+                    <blockquote class="ronaldo-quote">
+                        "My only opponent is the man I was yesterday."
+                    </blockquote>
+                    <p class="ronaldo-attr">— Cristiano Ronaldo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Membership Pricing -->
+    <section id="memberships" class="memberships section-padding">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Choose Your <span>Plan</span></h2>
+                <p>Everything included. One simple membership.</p>
+                <div class="pricing-tabs">
+                    <button class="pricing-tab active" data-period="monthly">Monthly</button>
+                    <button class="pricing-tab" data-period="sixmonth">6 Months <span class="discount-badge">Save
+                            10%</span></button>
+                    <button class="pricing-tab" data-period="yearly">1 Year <span class="discount-badge">Save
+                            20%</span></button>
+                </div>
+            </div>
+
+            <div class="single-plan-wrapper">
+                <div class="single-plan-card glass">
+
+                    <!-- Price Display -->
+                    <div class="plan-price-block">
+                        <div class="price" id="planPrice">&#8377;2,000<span>/mo</span></div>
+                        <p class="plan-meta" id="planMeta"></p>
+                        <div class="plan-coupon" id="planCoupon"></div>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="plan-divider"></div>
+
+                    <!-- Features - all green ticks -->
+                    <ul class="plan-features">
+                        <li><span class="check-green">&#10003;</span> 24/7 Gym Access</li>
+                        <li><span class="check-green">&#10003;</span> PT Session &mdash; Morning &amp; Evening</li>
+                        <li><span class="check-green">&#10003;</span> Recovery Facility Access</li>
+                        <li><span class="check-green">&#10003;</span> Free Wi-Fi</li>
+                        <li><span class="check-green">&#10003;</span> Trainee Always Available</li>
+                    </ul>
+
+                    <a href="#contact" class="btn-primary w-100 mt-4">Join Now &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Trainers -->
+    <section id="trainers" class="trainers section-padding bg-darker">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Meet The <span>Experts</span></h2>
+                <p>Our elite coaching staff is here to guide your transformation.</p>
+            </div>
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-img t1">
+                        <div class="trainer-socials">
+                            <a href="#">IG</a>
+                            <a href="#">FB</a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>David Miller</h3>
+                        <p class="specialization">Head Coach - Strength</p>
+                        <p class="exp">12 Years Experience</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img t2">
+                        <div class="trainer-socials">
+                            <a href="#">IG</a>
+                            <a href="#">FB</a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Sarah Jenkins</h3>
+                        <p class="specialization">HIIT & Cardio</p>
+                        <p class="exp">8 Years Experience</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-img t3">
+                        <div class="trainer-socials">
+                            <a href="#">IG</a>
+                            <a href="#">FB</a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Marcus Chen</h3>
+                        <p class="specialization">Mobility & Rehab</p>
+                        <p class="exp">10 Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Working Hours -->
+    <section id="schedule" class="schedule section-padding">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Working <span>Hours</span></h2>
+                <p>Train on your schedule.</p>
+            </div>
+            <div class="working-hours-wrapper glass pb-4">
+                <div class="working-hours-list">
+                    <div class="hour-row">
+                        <span class="day">Monday &ndash; Saturday</span>
+                        <span class="separator">:</span>
+                        <span class="time">7:00 AM &ndash; 10:00 PM</span>
+                    </div>
+                    <div class="hour-row closed">
+                        <span class="day">Sunday</span>
+                        <span class="separator">:</span>
+                        <span class="time">Closed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Gallery -->
+    <section id="gallery" class="gallery section-padding bg-darker">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>The <span>Facility</span></h2>
+                <p>Immerse yourself in our world-class training environment.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item img-1">
+                    <div class="gallery-overlay"><span>Free Weights</span></div>
+                </div>
+                <div class="gallery-item img-2">
+                    <div class="gallery-overlay"><span>Machine Area</span></div>
+                </div>
+                <div class="gallery-item img-3">
+                    <div class="gallery-overlay"><span>Cardio Deck</span></div>
+                </div>
+                <div class="gallery-item img-4">
+                    <div class="gallery-overlay"><span>Power Racks</span></div>
+                </div>
+                <div class="gallery-item img-5">
+                    <div class="gallery-overlay"><span>Turf Zone</span></div>
+                </div>
+                <div class="gallery-item img-6">
+                    <div class="gallery-overlay"><span>Recovery Zone</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Testimonials -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container reveal">
+            <div class="section-title">
+                <h2>Member <span>Stories</span></h2>
+                <p>Hear from those who have walked the path.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card glass">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"Forge completely changed my perspective on fitness. The coaches here genuinely
+                        care about your progress and push you past what you thought was possible."</p>
+                    <div class="client-info">
+                        <div class="client-avatar a1"></div>
+                        <div>
+                            <h4>Emily R.</h4>
+                            <p>Pro Member</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass">
+                    <div class="stars">★★★★★</div>
+                    <p class="quote">"The equipment is top tier and the 24/7 access fits my chaotic work schedule
+                        perfectly. It's truly a premium experience from the moment you walk in."</p>
+                    <div class="client-info">
+                        <div class="client-avatar a2"></div>
+                        <div>
+                            <h4>Jason T.</h4>
+                            <p>Elite Member</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. BMI Calculator -->
+    <section id="bmi" class="bmi section-padding bg-darker">
+        <div class="container reveal">
+            <div class="bmi-wrapper glass">
+                <div class="bmi-info">
+                    <h2>Calculate Your <span>BMI</span></h2>
+                    <p>Body Mass Index (BMI) is a simple index of weight-for-height that is commonly used to classify
+                        underweight, overweight and obesity in adults.</p>
+                    <div class="bmi-chart">
+                        <div class="chart-row"><span>Underweight</span> <span>
+                                < 18.5</span>
+                        </div>
+                        <div class="chart-row"><span>Healthy Weight</span> <span>18.5 - 24.9</span></div>
+                        <div class="chart-row"><span>Overweight</span> <span>25 - 29.9</span></div>
+                        <div class="chart-row"><span>Obese</span> <span>> 30</span></div>
+                    </div>
+                </div>
+                <div class="bmi-form-container">
+                    <form id="bmiForm">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="bmiHeight">Height (cm)</label>
+                                <input type="number" id="bmiHeight" placeholder="e.g. 175" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="bmiWeight">Weight (kg)</label>
+                                <input type="number" id="bmiWeight" placeholder="e.g. 70" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-primary w-100">Calculate BMI</button>
+                    </form>
+                    <div id="bmiResult" class="bmi-result hide">
+                        <h3>Your BMI is: <span id="bmiValue">0</span></h3>
+                        <p>Status: <strong id="bmiStatus"></strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container reveal">
+            <div class="contact-wrapper glass">
+                <div class="contact-info">
+                    <h2>Ready to <span>Start?</span></h2>
+                    <p>Drop us a line to schedule a tour or claim your free trial pass.</p>
+                    <div class="info-blocks mt-4">
+                        <div class="info-item">
+                            <span class="icon-circle">📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>123 Iron Avenue, Fitness City, FC 90210</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon-circle">📞</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="icon-circle">✉️</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>join@forgefitness.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-container mt-4">
+                        <!-- Simulated Map -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-73.987654!3d40.748440!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zNDUnNTQuNCJOIDczwrA1OScxNS41Ilc!5e0!3m2!1sen!2sus!4v1234567890"
+                            width="100%" height="200" style="border:0; border-radius: 8px;" allowfullscreen=""
+                            loading="lazy"></iframe>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder="Full Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder="Email Address">
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" id="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="input-group">
+                        <select id="interest" required>
+                            <option value="" disabled selected>Select Area of Interest</option>
+                            <option value="membership">Membership Info</option>
+                            <option value="pt">Personal Training</option>
+                            <option value="trial">Free Trial Tour</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Forge Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 14. Floating Action Buttons -->
+    <a href="https://wa.me/919226005854" target="_blank" rel="noopener noreferrer" class="floating-btn whatsapp-btn"
+        aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path
+                d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.711.92 2.8.92 3.105 0 5.731-2.615 5.733-5.71.002-3.108-2.522-5.818-5.384-5.818zm2.692 8.35c-.139.39-.81 .741-1.12.777-.328.038-.58.077-1.841-.446-1.503-.623-2.457-2.181-2.53-2.278-.074-.097-.604-.804-.604-1.535 0-.731.378-1.09.508-1.228.13-.139.282-.174.376-.174.095 0 .193.003.277.007.085.004.204-.033.318.243.125.3.428 1.045.466 1.122.039.076.064.166.015.263-.049.097-.074.154-.15.228-.076.074-.158.163-.223.228-.072.072-.149.151-.065.295.084.144.375.62.802 1.001.549.49 1.026.643 1.171.716.145.074.23.061.316-.037.086-.098.371-.433.471-.581.099-.149.199-.124.33-.075.132.049.83.391.973.463.143.072.238.113.274.175.036.062.036.357-.103.747z" />
+        </svg>
+    </a>
+    <a href="#" class="floating-btn call-btn" aria-label="Call Now">
+        <svg viewBox="0 0 24 24">
+            <path
+                d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.65.25-1C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM19 12h2c0-4.97-4.03-9-9-9v2c3.87 0 7 3.13 7 7zm-4 0h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
