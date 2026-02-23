@@ -198,4 +198,21 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 1000);
         });
     }
+
+    // --- 9. Expandable Programs ---
+    const programLinks = document.querySelectorAll('.program-card .link-arrow');
+    programLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const card = e.target.closest('.program-card');
+            card.classList.toggle('expanded');
+            if (card.classList.contains('expanded')) {
+                e.target.innerHTML = 'Read Less &uarr;';
+            } else {
+                e.target.innerHTML = 'Read More &rarr;';
+            }
+        });
+    });
 });
+

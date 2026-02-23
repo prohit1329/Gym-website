@@ -705,6 +705,17 @@ ul {
     color: white;
 }
 
+.program-card.expanded .program-content {
+    background: rgba(17, 17, 17, 0.95);
+    border-color: var(--primary);
+    transform: translateY(0);
+}
+
+.program-card.expanded .program-content p {
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
+}
+
 /* 4. Body Transformation */
 .transformation-slider {
     padding: 40px;
